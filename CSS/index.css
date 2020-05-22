@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-May-2020, 1:30:13 AM
+    Author     : VAIBHAV SINGH BAGHEL
+*/
+
+body{
+ background-color: white;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+li a {
+
+  display: block;
+  color: #FFFFFF;
+  font-size: 22px;
+  padding: 10px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+.logo {
+  float: left;
+}
+#head{
+  height:40px;
+  background-color: black;
+}
+
+#banner{
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #8f8f8;
+    background-image:url("../images/intro-bg_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover; 
+}
+#inner-banner-image{
+    padding-top: 12%;
+    width:80%;
+    margin:auto
+}
+#banner-content{
+    position: relative;
+    padding-top:6%;
+    padding-bottom: 12%;
+     overflow: hidden;
+    margin-bottom: 12%;
+    background-color: rgba(0,0,0,0.7);
+    max-width: 660px;
+}
+.container{
+    width: 90%;
+     margin: auto;
+    overflow: hidden;
+}
+.items{
+    width: 30%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: left;
+    margin-left: 1%;
+}
+.thumbnail{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.caption{
+    text-decoration: none;
+    color: #000;
+    padding: 0px 10px 10px;
+    font-weight: bold;
+    text-align: center; 
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #C0C0C0;
+}
+img{
+    max-width: 100%; 
+    height: auto;
+    vertical-align: middle;
+}
+@media (min-width: 321px) { .body {
+                                width: 321px;
+                            }}
+@media (min-width: 481px) { .body{
+                                width: 481px;
+                            }}
+@media (min-width: 620px) { .body {
+                                width: 620px;
+                            }}
+@media (min-width: 891px) { .body {
+                                width: 891px;
+                            }}
+@media (min-width: 1000px) { .body {
+                                width: 1000px;
+                            }}
+
+@media (max-width:481px) {
+    .items{
+        width: 100%;
+    }
+    h2{
+        text-align:center;
+    }
+}
+@media (min-width:320px) {  #banner-content {
+                                width: 90%;
+                            } }
+@media (min-width:481px) {   #banner-content {
+                                 width: 90%;
+                             } }
+@media (min-width:641px) {   #banner-content {
+                                 width: 90%;
+                             } }
+@media (min-width:961px) {   #banner-content {
+                                 width: 90%;
+                             } }
+@media (min-width:1000px) { #banner-content {
+                               
+                                 width: 90%;
+                             } }
+@media (max-width:1000px){
+    .thumbnail{
+        margin:30px;
+        width: 70%;
+    }
+}
